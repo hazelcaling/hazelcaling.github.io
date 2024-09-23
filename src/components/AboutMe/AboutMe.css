@@ -1,0 +1,33 @@
+#aboutme {
+    padding: 200px 400px;
+    height: 500px;
+
+
+}
+
+.aboutme-title {
+    font-size: 32px;
+}
+
+#aboutme p, li {
+    font-size: 16px;
+    line-height: 2;
+}
+
+#aboutme h3 {
+    margin-top: 50px;
+}
+
+.aboutme-link {
+    color: #FF6F61;
+    font-weight: bolder;
+    text-decoration: none;
+
+    transition: color 0.3s, text-decoration 0.3s;
+}
+
+.aboutme-link:hover {
+
+    color:  #B22222;
+    text-decoration: underline;
+}

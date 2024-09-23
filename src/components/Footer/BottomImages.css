@@ -1,0 +1,27 @@
+.bottom-images {
+    position: relative;
+    height: 100vh;
+
+}
+
+.left-image {
+    position: absolute; /* Position the images absolutely */
+    bottom: 0; /* Adjust bottom spacing as needed */
+    width: 150px; /* Set a specific width */
+    height: auto; /* Maintain aspect ratio */
+
+}
+
+.right-image {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: auto;
+
+}
+
+
+.right-image img {
+    right: 20px;
+    width: 150px;
+}

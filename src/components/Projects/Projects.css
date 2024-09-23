@@ -1,0 +1,131 @@
+#projects {
+    padding: 50px 200px;
+
+}
+
+.section-title {
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+
+.projects-container {
+
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+
+.project-container {
+    margin: 0;
+    background-color: #fff; /* White background for contrast */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: flex-start;
+
+
+}
+
+.project-header {
+    padding: 20px;
+    width: 30%;
+
+
+}
+
+.project-header  p  {
+    text-align: start;
+}
+
+.project-container img {
+    width: 70%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.projects-icons {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: flex-start; /* Center the icon */
+    align-items: center; /* Vertically center the icon */
+    border: none; /* Remove border */
+    padding: 20px; /* Space around the icon */
+    gap: 10px;
+
+}
+
+.projects-icons svg {
+    color: #E91E63; /* Change icon color */
+    width: 50px; /* Set width */
+    height: 50px; /* Set height */
+}
+
+@keyframes jump {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px); /* Adjust height of the jump */
+    }
+}
+
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white; /* Text color */
+    background-color: #008080;
+    border: 2px solid #008080;/* Border color */
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+    cursor: pointer;
+    animation: jump 1.5s infinite; /* Jumping animation */
+}
+
+button:hover {
+    background-color: white; /* Change background on hover */
+    color: #008080;
+    animation: none; /* Stop jumping on hover */
+}
+
+button:active {
+    transform: translateY(.5px); /* Pressed effect */
+}
+
+
+/* Media Query for smaller screens */
+@media (max-width: 1500px) {
+    .project-container {
+        flex-direction: column; /* Stack elements vertically */
+        align-items: center; /* Center align items */
+        min-width: 300px;
+    }
+
+    .projects-icons {
+        justify-content: center;
+    }
+
+    .project-header {
+        width: 100%; /* Full width for header */
+        text-align: center; /* Center text */
+    }
+
+    .project-container img {
+        width: 100%; /* Full width for images */
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 0px;
+    }
+
+
+    .project-header  p {
+        text-align: center;
+        padding: 20px;
+    }
+}
