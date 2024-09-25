@@ -21,7 +21,7 @@ function ContactPage() {
         <button type="submit">Send Message</button>
       </form>
 
-      <div style={{ marginTop: '50px' }}>
+      <div style={{ marginTop: '50px' }} className="iframe-container">
                 <h3>Find Me Here:</h3>
                 <iframe
                     title="San Mateo, CA Map"

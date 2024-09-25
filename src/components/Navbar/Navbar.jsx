@@ -9,9 +9,9 @@ function Navbar () {
             <div className="logo"><a href="#home"><TbHome /></a></div>
             <div className='navbar-list-items'>
                 <ul>
-                    {/* <li>
+                    <li>
                         <a href="#aboutme">About</a>
-                    </li> */}
+                    </li>
                     <li>
                         <a href="#projects">Projects</a>
                     </li>

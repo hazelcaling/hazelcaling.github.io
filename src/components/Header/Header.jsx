@@ -25,11 +25,15 @@ function Header () {
     ]
     return (
         <div className='header' id='home'>
+            <div className="greetings">
             <div className='header-text'>
                 Hi, my <br/>
-                name is <strong>Hazel</strong>. <br />
+                name is <strong>Hazel Caling</strong>. <br />
                 Fullstack developer
             </div>
+            <img src="profile.PNG" alt="" className="profile"/>
+            </div>
+
             <div>
                 <h3 className="skills" style={{color: '#2F4F4F'}}>Skills at a Glance</h3>
             </div>

@@ -76,6 +76,11 @@ p {
     padding: 20px;
   }
 
+  iframe {
+    font-size: 0.5rem;
+    padding: 5px;
+  }
+
   .contact-form input, .contact-form textarea {
     font-size: 0.9em;
     padding: 8px;
@@ -88,4 +93,20 @@ p {
   p {
     font-size: 1em;
   }
+}
+
+
+
+
+
+/* Media Query for smaller screens */
+@media (max-width: 768px) {
+  .iframe-container iframe {
+      height: 300px; /* Adjust height for smaller screens */
+      width: 100%; /* Full width for responsiveness */
+      max-width: 600px; /* Maximum width */
+      border: 0; /* Remove border */
+      border-radius: 10px; /* Rounded corners */
+  }
+
 }

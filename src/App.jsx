@@ -2,8 +2,9 @@ import { Navbar } from './components/Navbar'
 import Footer from './components/Footer/Footer'
 import { Header } from './components/Header'
 import { Projects } from './components/Projects'
-import './App.css'
+import { AboutMe } from './components/AboutMe'
 import ContactPage from './components/ContactPage/ContactPage'
+import './App.css'
 
 
 function App() {
@@ -22,7 +23,7 @@ function App() {
 
       <Navbar />
       <Header />
-      {/* <AboutMe /> */}
+      <AboutMe />
       <Projects />
       <ContactPage />
       <Footer />

@@ -28,6 +28,7 @@
         flex-direction: column; /* Stack items vertically */
         align-items: center; /* Center align items */
         text-align: center; /* Center text */
+        margin-top: 50px;
     }
 
     .header-text {
@@ -38,6 +39,19 @@
         width: 200px; /* Smaller width for mobile */
     }
 
+    .greetings {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .header-text strong {
+      text-wrap: nowrap;
+    }
+
+}
+
+.header-text strong {
+  text-wrap: nowrap;
 }
 
 
@@ -105,4 +119,21 @@ strong {
 
 .skills {
     margin-top: 100px;
+}
+
+
+.greetings {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  gap: 100px;
+}
+
+
+.greetings img {
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
+
 }

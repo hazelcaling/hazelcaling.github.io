@@ -7,19 +7,18 @@ function AboutMe () {
                 🌟 About Me
             </strong>
             <p>
-                Hi! I’m Hazel, a passionate Fullstack Developer with a solid foundation in software engineering. I have honed my skills in Python, JavaScript, and React, thriving on tackling complex challenges to create impactful web applications that enhance user experiences.
+                Hello! I’m Hazel Caling, a passionate software engineer with a strong background in logistics. I completed an immersive Software Development course at <a href="https://www.appacademy.io/" className='aboutme-link' target='_blank'>App Academy</a>, focusing on full-stack web development.
             </p>
             <p>
-                🎓 I hold a BSBA in Human Resource Management from the <a href="https://www.pup.edu.ph/" className='aboutme-link'>Polytechnic University of the Philippines 🇵🇭</a>, and I graduated from <a href="https://www.appacademy.io/" className='aboutme-link'>App Academy</a> in July 2024, completing an Immersive Software Development course focused on full-stack web development.
+                With over 12 years of experience in the logistics industry, I developed a fascination with technology and its potential to transform operations. This curiosity drove me to explore software development, where I discovered my passion for problem-solving and creating efficient solutions. Transitioning from logistics to software engineering has equipped me with a unique perspective, allowing me to leverage my analytical skills and experience in optimizing processes to build impactful applications.
             </p>
-            <h3>☕ Outside the Code</h3>
+            <h3>In my personal time, you can find me:</h3>
             <ul>
-                <li>🐕 Walking my two dogs (Princess & Sofia) and enjoying the outdoors</li>
-                <li>☕ Sipping artisanal coffee at cozy cafés</li>
-                <li>🍽️ Exploring culinary adventures at new restaurants</li>
-                <li>🎬 Unwinding with a captivating movie</li>
-                <li>🎮 Diving into games like Othello, Animal Crossing, and Super Mario, where creativity and fun come to life.</li>
+                <li>🐕 <span style={{ fontWeight: '600'}}>Enjoying Nature with Princess & Sofia:</span> I love spending quality time outdoors with my two dogs, soaking in the beauty of nature.</li>
+                <li>🍽️ <span style={{ fontWeight: '600'}}>Culinary Explorations:</span> I am always on the lookout for new restaurants to try and diverse cuisines to discover.</li>
+                <li>🎬 <span style={{ fontWeight: '600'}}>Movie Nights</span> Unwinding with captivating films that transport me to different worlds, sparking imagination and inspiration.</li>
             </ul>
+            <p>I am excited about the opportunity to connect and collaborate with others in the tech community!</p>
         </div>
     )
 }

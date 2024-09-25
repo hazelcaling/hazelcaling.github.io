@@ -64,40 +64,6 @@
     height: 50px; /* Set height */
 }
 
-@keyframes jump {
-    0%, 100% {
-        transform: translateY(0);
-    }
-    50% {
-        transform: translateY(-10px); /* Adjust height of the jump */
-    }
-}
-
-button {
-    display: inline-block;
-    padding: 10px 20px;
-    font-size: 16px;
-    color: white; /* Text color */
-    background-color: #008080;
-    border: 2px solid #008080;/* Border color */
-    border-radius: 5px;
-    text-align: center;
-    text-decoration: none;
-    transition: background-color 0.3s, color 0.3s;
-    cursor: pointer;
-    animation: jump 1.5s infinite; /* Jumping animation */
-}
-
-button:hover {
-    background-color: white; /* Change background on hover */
-    color: #008080;
-    animation: none; /* Stop jumping on hover */
-}
-
-button:active {
-    transform: translateY(.5px); /* Pressed effect */
-}
-
 
 /* Media Query for smaller screens */
 @media (max-width: 1500px) {
@@ -127,5 +93,108 @@ button:active {
     .project-header  p {
         text-align: center;
         padding: 20px;
+    }
+
+
+}
+
+
+a button {
+    background-color: teal;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    margin: 0 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+a button:hover {
+    color: black;
+    background-color: #26a69a; /* Lighter teal for hover effect */
+    transform: scale(1.05); /* Slight scale-up animation */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+}
+
+a button:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px rgba(0, 121, 107, 0.4); /* Focus ring */
+}
+
+a button:active {
+    background-color: #00796b; /* Medium teal for active state */
+    transform: scale(0.98); /* Slight shrink for click effect */
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+a {
+    text-decoration: none; /* Remove underline from links */
+}
+
+button svg {
+    margin-right: 8px; /* Space between icon and text */
+}
+
+button .icon {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+/* Media Query for smaller screens */
+@media (max-width: 768px) {
+    #projects {
+        padding: 20px; /* Reduce padding for smaller screens */
+    }
+
+    .projects-container {
+        flex-direction: column; /* Stack projects vertically */
+        align-items: center; /* Center align items */
+        gap: 50px; /* Adjust gap between projects */
+    }
+
+    .project-container {
+        width: 100%; /* Full width for project containers */
+        margin: 0; /* Remove margins for better alignment */
+    }
+
+    .project-header {
+        width: 100%; /* Full width for header */
+        text-align: center; /* Center text */
+        padding: 10px; /* Reduce padding */
+    }
+
+    .project-container img {
+        width: 100%; /* Full width for images */
+        border-radius: 10px; /* Ensure rounded corners */
+    }
+
+    .projects-icons {
+        justify-content: center; /* Center icons */
+    }
+
+    a button {
+        width: 90%; /* Full width buttons for better tap area */
+        margin: 10px 0; /* Space buttons vertically */
+    }
+
+    .section-title {
+        font-size: 28px; /* Adjust font size for section title */
+        margin-bottom: 30px; /* Reduce margin */
+    }
+
+    #projects h2 {
+        font-size: 24px; /* Adjust font size for year */
+    }
+
+    #projects h3 {
+        font-size: 20px; /* Adjust font size for project title */
+    }
+
+    #projects p {
+        font-size: 14px; /* Adjust font size for project description */
     }
 }
