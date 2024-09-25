@@ -41,7 +41,7 @@ function Projects () {
                     <div className="project-header">
                     <h2>2024</h2>
                     <h3>Yelper</h3>
-                    <p>This group project is a Yelp clone designed to help users discover and review local businesses. Built with React on the frontend and Flask on the backend, the application allows users to search for businesses, read reviews, and submit their own experiences. Collaborating with my team, we focused on creating an intuitive interface and ensuring a seamless user experience. This project showcases my abilities in full-stack development and effective collaboration to create a functional web application.</p>
+                    <p>This group project is a Yelp clone designed to help users discover and review local businesses. The application allows users to search for businesses, read reviews, and submit their own experiences. Collaborating with my team, we focused on creating an intuitive interface and ensuring a seamless user experience. This project showcases my abilities in full-stack development and effective collaboration to create a functional web application.</p>
                     <div className="projects-icons">
                         <DiPostgresql style={{color: '#336791'}}/>
                         <FaReact style={{color: '#E91E63', height: '45px'}}/>
