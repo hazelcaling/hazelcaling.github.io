@@ -8,7 +8,7 @@ function Footer() {
             <img src="avatar.png" alt="Avatar" className='left-image' />
             <div className='center-text'>
                 <p>
-                    <a href="https://www.linkedin.com/in/hazel-c-37255a59/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.linkedin.com/in/hazel-caling-37255a59" target="_blank" rel="noopener noreferrer">
                         <CiLinkedin className='icon' />
                     </a>
                     <a href="https://github.com/hazelcaling" target="_blank" rel="noopener noreferrer">

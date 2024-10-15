@@ -6,7 +6,7 @@ function ContactPage() {
   return (
     <div className="contact-container" id="contact">
       <h1>Contact Me</h1>
-      <p>Feel free to reach out using the form below, or connect with me on <a href="https://www.linkedin.com/in/hazel-c-37255a59/" target="_blank" rel="noopener noreferrer">LinkedIn!</a></p>
+      <p>Feel free to reach out using the form below, or connect with me on <a href="https://www.linkedin.com/in/hazel-caling-37255a59" target="_blank" rel="noopener noreferrer">LinkedIn!</a></p>
 
       <form className="contact-form">
         <label htmlFor="name">Name:</label>
